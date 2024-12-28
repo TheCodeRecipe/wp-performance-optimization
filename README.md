@@ -25,7 +25,7 @@
      ```
 
      
-
+<br><br>
 
 
 ### 2. `lazyload-gtm.js`
@@ -46,7 +46,7 @@
 
 
   
-
+<br><br>
 
 ### 3. `youtube-lazy-load.js`
 - **기능**:
@@ -64,23 +64,25 @@
      ```
 
 
-
+<br><br>
 
 ## **기대 효과**
 - **페이지 로드 속도 개선**: 초기 리소스 로드를 지연시켜 사용자가 더 빠르게 페이지를 이용할 수 있도록 최적화합니다.
 - **사용자 경험 향상**: 광고, 태그, 동영상과 같은 외부 리소스가 필요한 시점에만 로드됩니다.
 - **효율적인 리소스 관리**: 불필요한 초기 네트워크 요청을 줄이고 성능 최적화를 지원합니다.
 
-
+<br><br>
 
 ## 성능 테스트 결과
 
 스크립트 적용 후 **PageSpeed Insights**에서 아래와 같은 성능 점수를 달성했습니다.
+
+<div align="center">
+  <img width="349" alt="성능" src="https://github.com/user-attachments/assets/35a5d81b-9d27-4e90-80cb-fc44bf733489" />
+</div>
 
 - **성능 점수**: 99
 - **주요 개선 사항**:
   - 불필요한 리소스 초기 로드 지연 제거
   - 광고 및 외부 스크립트의 레이지 로딩 적용
   - YouTube iframe 썸네일 대체로 렌더링 최적화
-    
-<img width="349" alt="성능" src="https://github.com/user-attachments/assets/35a5d81b-9d27-4e90-80cb-fc44bf733489" />
