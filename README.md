@@ -2,9 +2,7 @@
 
 워드프레스 사이트 성능을 최적화하기 위해 작성된 세 가지 레이지 로딩(Lazy Loading) 스크립트를 포함합니다. Google AdSense, Google Tag Manager(GTM), YouTube iframe과 같은 외부 리소스를 효율적으로 로드하여 초기 페이지 로딩 성능을 개선합니다.
 
-
-
-
+<br><br>
 
 ## **스크립트 목록**
 
@@ -24,9 +22,7 @@
      }, 11);
      ```
 
-     
 <br><br>
-
 
 ### 2. `lazyload-gtm.js`
 - **기능**:
@@ -43,8 +39,6 @@
          wp_enqueue_script('lazyload_gtm', get_stylesheet_directory_uri() . '/js/lazyload-gtm.js', [], 'v1.0.0', true);
      }, 11);
      ```
-
-
   
 <br><br>
 
@@ -62,7 +56,6 @@
          wp_enqueue_script('youtube_lazyload', get_stylesheet_directory_uri() . '/js/youtube-lazy-load.js', [], 'v1.0.0', true);
      }, 11);
      ```
-
 
 <br><br>
 
